@@ -18,6 +18,7 @@
 .container-fluid h4 {
     text-align: center;
     color: red;
+    font-size: 20px;
 }
 
 .row {
