@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.header img {
+    width: 100%;
+}
+
+.container-fluid {
+    max-width: 800px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.container-fluid h4 {
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.row img-1 {
+    width: 100%;
+}
+.row img-2 {
+    width: 100%;
+}
