@@ -20,6 +20,9 @@
     color: red;
     font-size: 20px;
 }
+.container-fluid p{
+    text-align: justify;
+}
 
 .row {
     display: grid;
@@ -36,6 +39,9 @@
 .footer{
     background-color: black;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
 }
 .footer ul{
     list-style-type: none;
@@ -47,6 +53,7 @@
 
 .footer form{
     text-align: right;
+    margin-top: 40px;
 }
 .footer form input[type=email]{
     background-color: #BFFBFF;
