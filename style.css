@@ -33,7 +33,6 @@
     width: 100%;
 }
 
-}
 .footer{
     background-color: black;
     width: 100%;
@@ -42,4 +41,26 @@
     list-style-type: none;
     text-align: center;
     color: blanchedalmond;
+    margin-top: 30px;   
+}
+
+
+.footer form{
+    text-align: right;
+}
+.footer form input[type=email]{
+    background-color: #BFFBFF;
+    border: none;
+    margin-bottom: 30px;
+    color: #676767;
+    height: 20px;
+    
+    
+}
+.footer form input[type=submit] {
+    background-color: #4154FF;
+    border: none;
+    margin-bottom: 30px;
+    color: white;
+    height: 20px;
 }
