@@ -32,3 +32,14 @@
 .row img-2 {
     width: 100%;
 }
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+    color: blanchedalmond;
+}
